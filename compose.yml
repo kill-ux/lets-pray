@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo
+    image: mongo:7
     container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
